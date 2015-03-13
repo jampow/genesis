@@ -1,0 +1,23 @@
+{
+  "name": "genesis",
+  "version": "1.0.0",
+  "description": "projeto facilmente configurável para criação de scaffolds",
+  "main": "genesis.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jampow/genesis.git"
+  },
+  "keywords": [
+    "generator",
+    "scaffold"
+  ],
+  "author": "Gianpaulo M. Soares",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jampow/genesis/issues"
+  },
+  "homepage": "https://github.com/jampow/genesis"
+}
