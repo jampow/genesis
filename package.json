@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/jampow/genesis/issues"
   },
-  "homepage": "https://github.com/jampow/genesis"
+  "homepage": "https://github.com/jampow/genesis",
+  "dependencies": {
+    "commander": "^2.7.1"
+  }
 }
