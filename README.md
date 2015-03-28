@@ -1,11 +1,12 @@
 # GENESIS
 
-Gerador de scaffolds maleável
+Easily configurable generator
 
+```
 projeto
 	+ genesis
 		+ src
-			genesis.js modulo-uol-web tematico
+			genesis.js 
 		+ tpls
 			+ modulo-uol-web
 				config.js
@@ -42,15 +43,5 @@ config.js
 	reminders
 }
 
-modulo.js
 
-
-=========================================================================================
-
-genesis grupo-topo titulo:text crop:radio:4 link:url grupo:configuracoes campo:check bla:text
-
-=========================================================================================
-
-Projeto massaroca
-
-tipo o cssdeck só q para publicador
+$ genesis modulo-bol-mobile nome-modulo
