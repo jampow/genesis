@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/jampow/genesis",
   "dependencies": {
+    "colors": "^1.0.3",
     "commander": "^2.7.1"
   }
 }
