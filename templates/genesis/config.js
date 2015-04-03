@@ -1,8 +1,8 @@
 module.exports = {
 	"files" : [
 		{ 
-			"filename": "file1.js",
-			"to": "path/with/many/folders/file1.js"
+			"filename": "file1.htm",
+			"to": "path/with/many/folders/file1.htm"
 		},
 		{ 
 			"filename": "file2.js",
