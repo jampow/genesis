@@ -23,6 +23,6 @@
   "dependencies": {
     "colors": "^1.0.3",
     "commander": "^2.7.1",
-    "mustache": "^2.0.0"
+    "mu2": "^0.5.20"
   }
 }
