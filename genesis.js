@@ -3,6 +3,16 @@ var genesis = require('./lib/genesis.js');
 
 program
 	.version('1.0.0')
-	.parse(process.argv);
+	.option('-l, --list', 'Show help');
 
-genesis.init(program.args);
+program.on('--help', function() {
+	console.log(program.args);
+});
+
+program.parse(process.argv);
+
+if(program.list) {
+	genesis.list();
+} else {
+	genesis.init(program.args);
+}
