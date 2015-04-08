@@ -14,7 +14,7 @@ module.exports = {
 		"Good luck, you'll need"
 	],
 	"doc" : [
-		"This will be showed when passed the --help flag."
+		"This will be showed when passed the --help flag.",
 		"Each array item will be displayed in a new line.",
 		"",
 		"You can pass a blank item for a better organization of your help.",
