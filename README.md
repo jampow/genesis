@@ -6,27 +6,27 @@ Easily configurable generator
 projeto
 	+ genesis
 		+ src
-			genesis.js 
+			genesis.js
 		+ tpls
-			+ modulo-uol-web
+			+ modulo-site-web
 				config.js
 				+ templates
 					file1.js
 					file2.css
 					file3.htm
-			+ modulo-uol-mobile
+			+ modulo-site-mobile
 				config.js
 				+ templates
 					file1.js
 					file2.css
 					file3.htm
-			+ modulo-bol-web
+			+ modulo-site-web
 				config.js
 				+ templates
 					file1.js
 					file2.css
 					file3.htm
-			+ modulo-bol-mobile
+			+ modulo-site-mobile
 				config.js
 				+ templates
 					file1.js
@@ -44,4 +44,4 @@ config.js
 }
 
 
-$ genesis modulo-bol-mobile nome-modulo
+$ genesis modulo-site-mobile nome-modulo
