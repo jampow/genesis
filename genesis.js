@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 var program = require('commander');
 var genesis = require('./lib/genesis.js');
 
