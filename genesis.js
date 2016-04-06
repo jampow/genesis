@@ -19,5 +19,8 @@ if(program.list) {
 } else if(program.doc) {
 	genesis.help(program.args);
 } else {
-	genesis.init(program.args);
+	if(program.args.length > 0)
+		genesis.init(program.args);
+	else
+		genesis.choseGenerator();
 }
