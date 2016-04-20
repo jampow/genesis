@@ -1,8 +1,14 @@
 module.exports = {
+	"questions" : [
+		{
+			"name": "name",
+			"message": "Digite o nome do seu componente."
+		}
+	],
 	"files" : [
 		{ 
 			"filename": "file1.htm",
-			"to": "{{arg1}}/path/with/many/folders/file1.htm"
+			"to": "{{comp}}/path/with/many/folders/file1.htm"
 		},
 		{ 
 			"filename": "file2.js",
