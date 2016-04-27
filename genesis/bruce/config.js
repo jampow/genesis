@@ -2,17 +2,31 @@ module.exports = {
 	"questions" : [
 		{
 			"name": "name",
-			"message": "Digite o nome do seu componente."
+			"message": "Give a name to the component."
+		},
+		{
+			"name": "files",
+			"type": "checkbox",
+			"message": "chose the files you want.",
+			"choices": [
+				"controller.vm",
+				"view.htm",
+				"script.js"
+			]
 		}
 	],
 	"files" : [
 		{ 
-			"filename": "file1.htm",
-			"to": "{{comp}}/path/with/many/folders/file1.htm"
+			"filename": "view.htm",
+			"to": "{{comp}}/path/with/many/folders/view.htm"
 		},
 		{ 
-			"filename": "file2.js",
-			"to": "other/path/with/many/folders/file2.js"
+			"filename": "controller.vm",
+			"to": "other/path/with/many/folders/controller.vm"
+		},
+		{ 
+			"filename": "script.js",
+			"to": "other/path/with/many/folders/script.js"
 		}
 	],
 	"tips" : [
